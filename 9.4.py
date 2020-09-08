@@ -2,7 +2,7 @@ name = input("Enter file:")
 if len(name) < 1:
     name = "mbox-short.txt"
 handle = open(name)
-# init empty {}
+# init empty dictionary
 counts = {}
 # iterate through file
 for line in handle:
