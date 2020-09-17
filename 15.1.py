@@ -1,5 +1,5 @@
 import sqlite3
-
+# make db connection
 conn = sqlite3.connect('orgdb.sqlite')
 cur = conn.cursor()
 
